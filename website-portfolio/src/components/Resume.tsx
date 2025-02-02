@@ -6,11 +6,18 @@ const Resume = () => {
       <div className="container">
         <h2 className="text-center mb-12">Professional Resume</h2>
         <div className="card p-8 space-y-8">
-          <div className="resume-content text-gray-800">
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/profile-pic.png" 
+              alt="Jonathan McFarland"
+              className="w-32 h-32 rounded-full animate-profile-entrance"
+            />
+          </div>
+          <div className="resume-content text-gray-800 text-center">
             <h3 className="text-2xl font-semibold">Jonathan McFarland</h3>
             <p>8485 Old Ski Run Cir APT 307, Littleton, CO 80125</p>
             <p>jonathan.s.mcfarland@gmail.com | 404-313-5580</p>
-            <p>
+            <p className="flex justify-center">
               <a
                 href="https://linkedin.com/in/jonathanmcfarland-15b994b8"
                 target="_blank"
@@ -21,16 +28,16 @@ const Resume = () => {
               </a>
             </p>
 
-            <h4 className="text-xl font-bold mt-8">Professional Experience</h4>
+            <h4 className="text-xl font-bold mt-8 text-center">Professional Experience</h4>
 
-            <div className="mt-4">
-              <h5 className="text-lg font-semibold">
+            <div className="mt-4 text-center">
+              <h5 className="text-lg font-semibold text-center">
                 Network Automation Engineer / Network Transport Engineer / Network Surveillance Engineer
               </h5>
               <p>
                 <strong>DISH Network / EchoStar / Boost Mobile</strong> | Denver, CO | July 2022 – Nov. 2024
               </p>
-              <ul className="list-disc list-inside ml-4 mt-2">
+              <ul className="list-none mt-2">
                 <li>
                   Began in frontline triage support for RF ORAN systems, rapidly identifying incidents, isolating root causes, and
                   implementing immediate fixes.
@@ -63,8 +70,8 @@ const Resume = () => {
                   and minimizing downtime.
                 </li>
               </ul>
-              <p className="mt-2 font-semibold">Key Achievements:</p>
-              <ul className="list-disc list-inside ml-4">
+              <p className="mt-2 font-semibold text-center">Key Achievements:</p>
+              <ul className="list-none">
                 <li>
                   Reduced mean-time-to-repair by 30% through automation, asynchronous scripting, and improved triage protocols.
                 </li>
@@ -74,12 +81,12 @@ const Resume = () => {
               </ul>
             </div>
 
-            <div className="mt-6">
-              <h5 className="text-lg font-semibold">Network Operations Center Technician</h5>
+            <div className="mt-6 text-center">
+              <h5 className="text-lg font-semibold text-center">Network Operations Center Technician</h5>
               <p>
                 <strong>Comcast</strong> | Centennial, CO | June 2021 – July 2022
               </p>
-              <ul className="list-disc list-inside ml-4 mt-2">
+              <ul className="list-none mt-2">
                 <li>
                   Conducted real-time network triage using Zabbix, Meraki, and Fortinet, identifying anomalies and initiating swift
                   resolutions.
@@ -91,8 +98,8 @@ const Resume = () => {
                   Documented SOPs and coordinated with ISPs, improving the escalation process for persistent network issues.
                 </li>
               </ul>
-              <p className="mt-2 font-semibold">Key Achievements:</p>
-              <ul className="list-disc list-inside ml-4">
+              <p className="mt-2 font-semibold text-center">Key Achievements:</p>
+              <ul className="list-none">
                 <li>
                   Streamlined incident response through standardized documentation and consistent adherence to triage best practices.
                 </li>
@@ -102,12 +109,12 @@ const Resume = () => {
               </ul>
             </div>
 
-            <div className="mt-6">
-              <h5 className="text-lg font-semibold">Advanced Repair Agent / Consultant</h5>
+            <div className="mt-6 text-center">
+              <h5 className="text-lg font-semibold text-center">Advanced Repair Agent / Consultant</h5>
               <p>
                 <strong>Geek Squad</strong> | Snellville, GA | June 2019 – May 2021
               </p>
-              <ul className="list-disc list-inside ml-4 mt-2">
+              <ul className="list-none mt-2">
                 <li>
                   Executed hands-on triage for hardware/software issues, including data recovery, virus removal, OS
                   reinstallations, and component replacements.
@@ -123,19 +130,19 @@ const Resume = () => {
                   Managed repairs through Apple GSX and NOVA, ensuring transparent device tracking and timely updates.
                 </li>
               </ul>
-              <p className="mt-2 font-semibold">Key Achievements:</p>
-              <ul className="list-disc list-inside ml-4">
+              <p className="mt-2 font-semibold text-center">Key Achievements:</p>
+              <ul className="list-none">
                 <li>
                   Accelerated repair turnaround times and boosted customer satisfaction through clear communication and consistent follow-up.
                 </li>
               </ul>
             </div>
 
-            <h4 className="text-xl font-bold mt-8">Major Projects</h4>
+            <h4 className="text-xl font-bold mt-8 text-center">Major Projects</h4>
 
-            <div className="mt-4">
-              <h5 className="text-lg font-semibold">Enterprise Network Automation Framework</h5>
-              <ul className="list-disc list-inside ml-4 mt-2">
+            <div className="mt-8 text-center">
+              <h5 className="text-lg font-semibold text-center">Enterprise Network Automation Framework</h5>
+              <ul className="list-none mt-2">
                 <li>
                   Created asynchronous Python scripts to manage large-scale Cisco router fleets, minimizing manual interventions and downtime.
                 </li>
@@ -148,9 +155,9 @@ const Resume = () => {
               </p>
             </div>
 
-            <div className="mt-4">
-              <h5 className="text-lg font-semibold">Network Health Monitoring System</h5>
-              <ul className="list-disc list-inside ml-4 mt-2">
+            <div className="mt-8 text-center">
+              <h5 className="text-lg font-semibold text-center">Network Health Monitoring System</h5>
+              <ul className="list-none mt-2">
                 <li>
                   Architected AWS-integrated health-check systems for real-time performance insights and rapid triage.
                 </li>
@@ -163,8 +170,8 @@ const Resume = () => {
               </p>
             </div>
 
-            <h4 className="text-xl font-bold mt-8">Core Competencies</h4>
-            <ul className="list-disc list-inside ml-4 mt-2">
+            <h4 className="text-xl font-bold mt-8 text-center">Core Competencies</h4>
+            <ul className="list-none mt-4 space-y-2 max-w-3xl mx-auto">
               <li>
                 Network Triage & Troubleshooting: Incident Detection, Fault Isolation, Root Cause Analysis
               </li>
@@ -182,12 +189,12 @@ const Resume = () => {
               </li>
             </ul>
 
-            <h4 className="text-xl font-bold mt-8">Education</h4>
-            <div className="mt-2">
+            <h4 className="text-xl font-bold mt-8 text-center">Education</h4>
+            <div className="mt-2 text-center">
               <p>
                 <strong>Computer Programming (2 Years of Coursework Completed)</strong>
               </p>
-              <ul className="list-disc list-inside ml-4 mt-1">
+              <ul className="list-none mt-1">
                 <li>
                   Completed foundational coursework in software development, data structures, and algorithms.
                 </li>
@@ -197,7 +204,7 @@ const Resume = () => {
               </ul>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-8 text-center">
               <a href="/resume.html" target="_blank" className="btn btn-primary">
                 Download as PDF
               </a>

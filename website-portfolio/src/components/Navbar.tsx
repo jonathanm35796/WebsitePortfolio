@@ -14,10 +14,10 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-[#f5f3e8]/80 backdrop-blur-sm z-50 border-b border-gray-200/20 shadow-sm">
+    <nav className="fixed top-0 w-full bg-black/90 backdrop-blur-sm z-50 border-b border-gray-800 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-xl font-bold text-blue-600">
+          <Link href="/" className="text-xl font-bold text-white hover:text-blue-400">
             Portfolio
           </Link>
 
@@ -27,7 +27,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-blue-600 transition-colors"
+                className="text-gray-300 hover:text-blue-400 transition-colors"
               >
                 {item.name}
               </Link>
@@ -40,8 +40,8 @@ export default function Navbar() {
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
-            <svg
-              className="w-6 h-6"
+              <svg
+              className="w-6 h-6 text-white"
               fill="none"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -66,7 +66,7 @@ export default function Navbar() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
+                className="block px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
