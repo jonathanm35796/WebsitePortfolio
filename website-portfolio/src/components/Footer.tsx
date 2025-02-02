@@ -17,8 +17,8 @@ export default function Footer() {
             className="text-center md:text-left"
           >
             <h3 className="text-2xl font-bold mb-4">Jonathan McFarland</h3>
-            <p className="text-gray-400">
-              Network Automation Engineer specializing in infrastructure optimization
+            <p className="text-gray-300">
+              Network & Automation Engineer
             </p>
           </motion.div>
 
@@ -32,25 +32,25 @@ export default function Footer() {
             <nav className="space-y-2">
               <a
                 href="#hero"
-                className="block text-gray-400 hover:text-white transition duration-300"
+                className="block text-gray-300 hover:text-[#800000] transition duration-300"
               >
                 Home
               </a>
               <a
                 href="#career"
-                className="block text-gray-400 hover:text-white transition duration-300"
+                className="block text-gray-300 hover:text-[#800000] transition duration-300"
               >
                 Career
               </a>
               <a
                 href="#expertise"
-                className="block text-gray-400 hover:text-white transition duration-300"
+                className="block text-gray-300 hover:text-[#800000] transition duration-300"
               >
                 Expertise
               </a>
               <a
                 href="#contact"
-                className="block text-gray-400 hover:text-white transition duration-300"
+                className="block text-gray-300 hover:text-[#800000] transition duration-300"
               >
                 Contact
               </a>
@@ -69,7 +69,7 @@ export default function Footer() {
                 href="https://github.com/jonathanm35796"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition duration-300"
+                className="text-gray-300 hover:text-[#FFBF00] transition duration-300"
                 aria-label="GitHub Profile"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -80,7 +80,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/jonathan-m-15b994b8/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition duration-300"
+                className="text-gray-300 hover:text-[#FFBF00] transition duration-300"
                 aria-label="LinkedIn Profile"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -97,7 +97,7 @@ export default function Footer() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-center mt-12 pt-8 border-t border-gray-800"
         >
-          <p className="text-gray-400">
+          <p className="text-gray-300">
             © {currentYear} Jonathan McFarland. All rights reserved.
           </p>
         </motion.div>

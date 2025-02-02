@@ -2,20 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Set a darker global background for a more comfortable viewing experience */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #121212; /* Dark charcoal */
+  --foreground: #E0E0E0; /* Light gray for text */
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background-color: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
