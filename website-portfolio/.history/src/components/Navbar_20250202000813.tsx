@@ -9,12 +9,11 @@ export default function Navbar() {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Resume', href: '#resume' },
     { name: 'Contact', href: '#contact' },
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-[#f5f3e8]/80 backdrop-blur-sm z-50 border-b border-gray-200/20 shadow-sm">
+    <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="text-xl font-bold text-blue-600">

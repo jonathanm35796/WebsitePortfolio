@@ -2,42 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Animation keyframes */
-@keyframes dropInBounce {
-  0% { transform: translateY(-100%); opacity: 0; }
-  70% { transform: translateY(10%); }
-  100% { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes slideRight {
-  0% { transform: translateX(-100%); opacity: 0; }
-  100% { transform: translateX(0); opacity: 1; }
-}
-
-/* Page Transitions */
-.page-transition {
-  animation: fadeIn 0.5s ease-out;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-/* Social Icons */
-.social-icon {
-  @apply fixed right-8 p-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg 
-  hover:scale-110 transition-all duration-300 z-50;
-}
-
-.linkedin-icon {
-  top: 100px;
-}
-
-.github-icon {
-  top: 170px;
-}
-
 :root {
   --primary: #2563eb;
   --secondary: #10b981;

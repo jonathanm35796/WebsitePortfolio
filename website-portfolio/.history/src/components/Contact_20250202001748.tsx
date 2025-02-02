@@ -22,10 +22,10 @@ export default function Contact() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Get In Touch
           </h2>
-            <p className="text-lg text-gray-600">
+          <p className="text-lg text-gray-600">
             Have a project in mind or want to discuss collaboration opportunities?
-            I&apos;d love to hear from you.
-            </p>
+            I'd love to hear from you.
+          </p>
         </div>
 
         <div className="max-w-2xl mx-auto">
