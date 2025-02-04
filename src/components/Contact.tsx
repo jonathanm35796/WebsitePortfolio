@@ -22,10 +22,32 @@ export default function Contact() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Get In Touch
           </h2>
-            <p className="text-lg text-gray-600">
+          <div className="space-y-2 mb-6">
+            <p className="text-gray-800">Littleton, CO 80125</p>
+            <p className="text-gray-800">jonathan.s.mcfarland@gmail.com | 404-313-5580</p>
+            <div className="flex justify-center space-x-6 mt-4">
+              <a
+                href="https://linkedin.com/in/jonathanmcfarland-15b994b8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 transition-colors"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/jonathanmcfarland"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-800 hover:text-gray-600 transition-colors"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+          <p className="text-lg text-gray-600">
             Have a project in mind or want to discuss collaboration opportunities?
             I&apos;d love to hear from you.
-            </p>
+          </p>
         </div>
 
         <div className="max-w-2xl mx-auto">
