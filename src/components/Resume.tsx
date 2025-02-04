@@ -211,9 +211,17 @@ const Resume = () => {
             </div>
 
             <div className="mt-8 text-center">
-              <a href="/resume.html" target="_blank" className="btn btn-primary">
+              <button
+                onClick={() => {
+                  const printWindow = window.open('/resume.html', '_blank');
+                  printWindow?.addEventListener('load', () => {
+                    printWindow.print();
+                  });
+                }}
+                className="btn btn-primary"
+              >
                 Download as PDF
-              </a>
+              </button>
             </div>
 
           </div>
