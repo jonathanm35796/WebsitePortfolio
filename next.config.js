@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost', 'www.jonathansmcfarland.com'],
+    domains: ['localhost', 'www.jonathansmcfarland.com', 'main.d2gzku5bh174dr.amplifyapp.com'],
     unoptimized: true
   },
   output: 'standalone',
