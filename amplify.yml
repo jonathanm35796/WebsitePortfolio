@@ -3,12 +3,9 @@ frontend:
   phases:
     preBuild:
       commands:
-        - nvm use 18
-        - node -v
-        - npm config set cache ./npm-cache --global
+        - npm install --legacy-peer-deps
     build:
       commands:
-        - npm install --legacy-peer-deps
         - npm run build
   artifacts:
     baseDirectory: .next
@@ -19,7 +16,6 @@ frontend:
     paths:
       - node_modules/**/*
       - .next/cache/**/*
-      - npm-cache/**/*
   customHeaders:
     - pattern: '**/*'
       headers:
@@ -27,7 +23,10 @@ frontend:
           value: 'max-age=31536000; includeSubDomains'
         - key: 'X-Frame-Options'
           value: 'SAMEORIGIN'
+        - key: 'X-Content-Type-Options'
+          value: 'nosniff'
   environment:
     variables:
       NODE_ENV: production
       NEXT_TELEMETRY_DISABLED: 1
+      NEXT_PUBLIC_AWS_REGION: us-east-1

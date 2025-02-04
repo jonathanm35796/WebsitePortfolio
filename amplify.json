@@ -1,0 +1,19 @@
+{
+  "features": {
+    "auth": true,
+    "storage": false,
+    "api": false,
+    "hosting": true,
+    "function": false
+  },
+  "frontend": {
+    "framework": "nextjs",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": ".next",
+      "BuildCommand": "npm run build",
+      "StartCommand": "npm run start"
+    }
+  },
+  "providers": ["awscloudformation"]
+}
