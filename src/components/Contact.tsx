@@ -55,7 +55,7 @@ export default function Contact() {
 
               <div className="flex justify-center space-x-4">
                 <a
-                  href="https://linkedin.com/in/jonathanmcfarland-15b994b8"
+                  href="https://www.linkedin.com/in/jonathansmcfarland/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 hover:scale-110"
@@ -77,7 +77,7 @@ export default function Contact() {
               </div>
 
               <p className="text-lg text-gray-600 text-center">
-                Have a project in mind or want to discuss collaboration opportunities?
+                Currently open for work opportunities. Feel free to reach out!
               </p>
             </div>
           </div>

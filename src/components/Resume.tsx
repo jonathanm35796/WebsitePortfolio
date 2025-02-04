@@ -26,12 +26,12 @@ const Resume = () => {
             <p>jonathan.s.mcfarland@gmail.com | 404-313-5580</p>
             <p className="flex justify-center">
               <a
-                href="https://linkedin.com/in/jonathanmcfarland-15b994b8"
+                href="https://www.linkedin.com/in/jonathansmcfarland/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 underline"
               >
-                linkedin.com/in/jonathanmcfarland-15b994b8
+                https://www.linkedin.com/in/jonathansmcfarland/
               </a>
             </p>
 

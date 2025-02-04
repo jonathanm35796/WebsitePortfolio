@@ -24,7 +24,7 @@ export default function Projects() {
       link: '#',
     },
     {
-      title: 'Infrastructure Monitor',
+      title: 'Network Monitoring Platform',
       description: 'Real-time monitoring dashboard for network infrastructure and performance metrics.',
       image: '/globe.svg',
       tags: ['React', 'Node.js', 'WebSocket'],

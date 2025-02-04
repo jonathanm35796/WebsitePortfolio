@@ -21,12 +21,12 @@ export default function Expertise() {
 
   const projects = [
     {
-      title: "Enterprise Network Automation Framework",
+      title: "Network Automation Framework",
       description: "Created asynchronous Python scripts to manage large-scale Cisco router fleets, minimizing manual interventions and downtime. Integrated robust error handling and secure credential management.",
       technologies: ["Python", "asyncio", "Cisco IOS", "JSON"]
     },
     {
-      title: "Network Health Monitoring System",
+      title: "Network Health Monitoring Dashboard",
       description: "Architected AWS-integrated health-check systems for real-time performance insights and rapid triage. Implemented ETL pipelines to consolidate metrics, enabling proactive decision-making.",
       technologies: ["AWS", "Python", "pandas", "ETL pipelines"]
     }
@@ -45,7 +45,7 @@ export default function Expertise() {
             Core Expertise & Projects
           </h2>
           <p className="text-xl text-gray-600">
-            Specialized in network engineering, automation, and infrastructure
+            Specialized in network transport, automation, and network monitoring
           </p>
         </motion.div>
 
