@@ -50,6 +50,7 @@
 @layer base {
   body {
     @apply bg-[#f5f3e8] text-gray-800 antialiased;
+    scroll-behavior: smooth;
   }
 
   h1, h2, h3, h4, h5, h6 {
