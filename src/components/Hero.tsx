@@ -56,7 +56,7 @@ export default function Hero() {
           <div className="relative w-72 h-72 md:w-96 md:h-96 mx-auto animate-[dropInBounce_1s_ease-out]">
             <div className="absolute inset-0 bg-blue-100/20 rounded-2xl -rotate-6"></div>
             <Image
-              src="/profile-pic.png"
+              src="/images/profile-pic.png"
               alt="Profile"
               fill
               className="object-cover rounded-2xl shadow-lg"
