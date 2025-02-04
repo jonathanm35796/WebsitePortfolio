@@ -8,12 +8,13 @@ frontend:
         - npm config set cache ./npm-cache --global
     build:
       commands:
-        - npm ci
+        - npm install --legacy-peer-deps
         - npm run build
   artifacts:
     baseDirectory: .next
     files:
       - '**/*'
+    staticDirectory: public
   cache:
     paths:
       - node_modules/**/*
