@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section id="home" className="pt-28 pb-16 md:pt-32 md:pb-24">
       {/* Social Icons */}
-      <a href="https://linkedin.com/in/jonathanmcfarland-15b994b8" 
+      <a href="https://www.linkedin.com/in/jonathan-m-15b994b8" 
          target="_blank" 
          rel="noopener noreferrer" 
          className="social-icon linkedin-icon">
@@ -15,7 +15,7 @@ export default function Hero() {
           <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
         </svg>
       </a>
-      <a href="https://github.com/JMcFarland21" 
+      <a href="https://github.com/jonathanm35796" 
          target="_blank" 
          rel="noopener noreferrer" 
          className="social-icon github-icon">
@@ -56,7 +56,7 @@ export default function Hero() {
           <div className="relative w-72 h-72 md:w-96 md:h-96 mx-auto animate-[dropInBounce_1s_ease-out]">
             <div className="absolute inset-0 bg-blue-100/20 rounded-2xl -rotate-6"></div>
             <Image
-              src="/profile-placeholder.svg"
+              src="/profile-pic.png"
               alt="Profile"
               fill
               className="object-cover rounded-2xl shadow-lg"
