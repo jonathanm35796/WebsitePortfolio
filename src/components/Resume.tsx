@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Resume = () => {
   return (
@@ -7,11 +8,16 @@ const Resume = () => {
         <h2 className="text-center mb-12">Professional Resume</h2>
         <div className="card p-8 space-y-8">
           <div className="flex justify-center mb-8">
-            <img 
-              src="/profile-pic.png" 
-              alt="Jonathan McFarland"
-              className="w-32 h-32 rounded-full animate-profile-entrance"
-            />
+            <div className="relative w-32 h-32">
+              <Image
+                src="/profile-pic.png"
+                alt="Jonathan McFarland"
+                fill
+                className="rounded-full animate-profile-entrance object-cover"
+                sizes="(max-width: 128px) 100vw, 128px"
+                priority
+              />
+            </div>
           </div>
           <div className="resume-content text-gray-800 text-center">
             <h3 className="text-2xl font-semibold">Jonathan McFarland</h3>
